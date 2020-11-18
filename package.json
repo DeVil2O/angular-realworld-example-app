@@ -8,7 +8,8 @@
     "build": "ng build --prod --no-progress",
     "test": "ng test",
     "lint": "ng lint --force",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --no-progress && firebase deploy"
   },
   "pre-commit": [
     "lint"
